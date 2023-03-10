@@ -26,7 +26,6 @@ func _physics_process(delta):
 	velocity = move_and_slide(velocity,Vector2.UP)
 
 
-
 func _on_TOP_CHECKER_body_entered(body):
 	$AnimatedSprite.play("squash")
 	SPEED = 0
